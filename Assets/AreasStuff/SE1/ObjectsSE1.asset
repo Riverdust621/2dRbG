@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4a8f89e4973e44889eeb171b3dfc2e, type: 3}
+  m_Name: ObjectsSE1
+  m_EditorClassIdentifier: Assembly-CSharp::spawnableobjects
+  enemys:
+  - {fileID: 2116359120450980334, guid: ccc37aa2c11d7d5488598d7c5a12816e, type: 3}
+  - {fileID: 6570056031394908898, guid: a4b522edd67fc9c4a824bae60a930a22, type: 3}
+  chests:
+  - {fileID: 653576242108689346, guid: 6ea3c423fc5182840970cc9e0864e923, type: 3}
+  - {fileID: 8384023102316588283, guid: 66a1c3b5f79eb694898bf3a1fc31e87b, type: 3}
+  npcs: []

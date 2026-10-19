@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b43930028668fc479b03fbdd5cc1264, type: 3}
+  m_Name: CollectBooks
+  m_EditorClassIdentifier: Assembly-CSharp::Quest
+  questID: CollectBooksf68209a1-3ef5-4345-afa0-1a33ac44211a
+  questName: CollectBooks
+  descripition: must find two books to help
+  objectives:
+  - objectiveID: 2
+    description: Collect two Books
+    type: 0
+    requiredAmount: 2
+    currentAmount: 0

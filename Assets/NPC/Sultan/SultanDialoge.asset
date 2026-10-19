@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0d96533698bac4c861cf03727650c5, type: 3}
+  m_Name: SultanDialoge
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialog
+  npcName: Sultan
+  npcPortrait: {fileID: -7527145504033472756, guid: 5b3daedc2adda524fb30ab5ff60c1048, type: 3}
+  dialogLines:
+  - 'hello '
+  - Can you Defaut some Enemys for me?
+  - Thank you
+  - Oh..maybe next time
+  - Please kill them
+  - Thanks
+  - Now my garden is without monsters
+  autoProgressLines: 01000000000100
+  endDialogueLines: 00000101010001
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 417fda02a049957499f442095c50c711, type: 3}
+  voicePitch: 1
+  autoProgressDelays: 1.5
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - yes
+    - no
+    nextDialogueIndexes: 0200000003000000
+    givesQuest: 0100
+  questInProgressIndex: 4
+  questCompletedIndex: 5
+  quest: {fileID: 11400000, guid: e0341e9964feb404c9e63aeb7be1d0bd, type: 2}
